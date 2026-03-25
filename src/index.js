@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import AppRoutes from './routes'
 import UserProvider from './providers/UserProvider'
-import AgeProvider from './providers/ageProvider'
+import AgeProvider from './providers/AgeProvider'
 import './index.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))

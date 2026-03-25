@@ -71,25 +71,27 @@ export default function Header(props) {
         </NavItem>
 
         <NavItem
-          active={location.pathname === "/profile"}
-          onClick={() => navigate("/profile")}
+          active={location.pathname === "/personal"}
+          onClick={() => navigate("/personal")}
         >
-          Profile
+          Personal
+        </NavItem>
+
+    
+        <NavItem
+          active={location.pathname === "/address"}
+          onClick={() => navigate("/address")}
+        >
+          Address
         </NavItem>
 
         <NavItem
-          active={location.pathname === "/contact"}
-          onClick={() => navigate("/contact")}
+          active={location.pathname === "/finish"}
+          onClick={() => navigate("/finish")}
         >
-          Contact
+          Finish
         </NavItem>
 
-        <NavItem
-          active={location.pathname === "/about"}
-          onClick={() => navigate("/about")}
-        >
-          About
-        </NavItem>
       </Nav>
     </Container>
   )
